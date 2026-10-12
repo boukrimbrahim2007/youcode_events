@@ -4,4 +4,138 @@
   --primary-light: rgba(194, 65, 12, 1);
 
   --secondary: rgba(204, 251, 241, 1);
+<<<<<<< Updated upstream
 }
+=======
+}
+
+/* footer */
+footer{
+    background-color: rgba(28, 25, 23, 1);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20%;
+}
+.navig{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.nav_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.nav_footer a{
+    width: 120%;
+    padding-right:20px ;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav_footer a:last-child{
+    margin-bottom:5px ;
+}
+
+footer h2 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box2{
+    width: auto;
+    max-width: 70%;
+    min-width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+}
+.text {
+    margin-top: 2%;
+    margin-left: 3%;
+    padding-bottom: 4%;
+}
+
+.line {
+    margin-left: 10%;
+    display: block;
+    width: 83%;
+    border-bottom:2px solid rgba(87, 83, 78, 1);
+}
+
+.copy {
+    margin-left: 10%;
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+/* nav bar */
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-index {
+  background-color: bisque;
+  padding: 15px;
+}
+
+.idnex-fonctionaliter {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  gap: 20px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.logo-droit-haut {
+  color: var(--primary-light)
+}
+
+.fonctionaliter {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.fonctionaliter a {
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: none;
+}
+.btn-header a {
+  background-color: var(--primary-light);
+  color: rgb(252, 254, 255);
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 400;
+}
+/* nav bar fin */
+>>>>>>> Stashed changes
