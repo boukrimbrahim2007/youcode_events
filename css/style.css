@@ -15,13 +15,15 @@ footer{
 .container{
     display: flex;
     justify-content: space-around;
-    gap: 20%;
+    flex-wrap: nowrap;
+    gap: 9rem;
 }
 .navig{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    padding-left: 2rem;
 }
 .nav_footer{
     display: flex;
@@ -30,7 +32,7 @@ footer{
     flex: 1;
 }
 .nav_footer a{
-    width: 120%;
+    width: 100%;
     padding-right:20px ;
     text-decoration: none;
     color: white;
@@ -57,7 +59,7 @@ footer h2 {
     min-width: 30%;
     display: flex;
     justify-content: flex-start;
-    gap: 5%;
+    gap: 2%;
 }
 .text {
     margin-top: 2%;
@@ -79,10 +81,15 @@ footer h2 {
     font-weight: 400;
     line-height: 20px;
 }
+.contact {
+    padding-left: 2rem;
+
+}
 
 .contact a{
     text-decoration: none;
     color: white;
+    
 }
 body {
   font-family: "Bricolage Grotesque", sans-serif;
@@ -91,16 +98,19 @@ body {
 }
 
 .header-index {
-  background-color: bisque;
+  background-color: white;
   padding: 15px;
 }
 
-.idnex-fonctionaliter {
+.logo{
+    width:147.5px ;
+}
+
+.menu_desk {
   display: flex;
-  box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 100px;
+  gap: 5rem;
 }
 
 h3 {
@@ -114,7 +124,7 @@ h3 {
 .fonctionaliter {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 2rem;
 
 }
 
@@ -134,3 +144,4 @@ h3 {
   border: none;
   font-weight: 400;
 }
+
