@@ -152,3 +152,22 @@ h3 {
 .logo_nav{
     display: none;
 }
+
+/*section events*/
+.headline {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+h1 {
+    margin-left: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.headline p{
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
