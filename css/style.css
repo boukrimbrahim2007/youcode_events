@@ -56,7 +56,9 @@ footer h2 {
     font-size: 14px;
     font-weight: 400;
 }
-
+.logo{
+    margin-left: 1rem;
+}
 .box2{
     width: auto;
     max-width: 70%;
