@@ -10,24 +10,18 @@
 footer{
     background-color: rgba(28, 25, 23, 1);
     color: white;
-    display: flex;
-    align-items: center;
 }
 
 .container{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 3rem;
-    margin-left: 2rem;
-    overflow: hidden;
+    justify-content: space-around;
+    gap: 20%;
 }
 .navig{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding-left: 0rem;
+    flex: 1;
 }
 .nav_footer{
     display: flex;
@@ -36,7 +30,7 @@ footer{
     flex: 1;
 }
 .nav_footer a{
-    width: 100%;
+    width: 120%;
     padding-right:20px ;
     text-decoration: none;
     color: white;
@@ -56,44 +50,39 @@ footer h2 {
     font-size: 14px;
     font-weight: 400;
 }
-.logo{
-    margin-left: 1rem;
-}
+
 .box2{
     width: auto;
     max-width: 70%;
     min-width: 30%;
     display: flex;
     justify-content: flex-start;
-    gap:1rem;
-    flex-wrap: wrap;
+    gap: 5%;
 }
 .text {
-    margin-top: 0rem;
-    margin-left: 0rem;
-    padding-bottom: 0rem;
+    margin-top: 2%;
+    margin-left: 3%;
+    padding-bottom: 4%;
 }
 
 .line {
-    margin-left: 0rem;
+    margin-left: 10%;
     display: block;
     width: 83%;
     border-bottom:2px solid rgba(87, 83, 78, 1);
 }
 
 .copy {
-    margin-left: 0rem;
+    margin-left: 10%;
     margin-top: -5px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
 }
 
-
 .contact a{
     text-decoration: none;
     color: white;
-    
 }
 body {
   font-family: "Bricolage Grotesque", sans-serif;
@@ -102,19 +91,16 @@ body {
 }
 
 .header-index {
-  background-color: white;
+  background-color: bisque;
   padding: 15px;
 }
 
-.logo{
-    width:147.5px ;
-}
-
-.menu_desk {
+.idnex-fonctionaliter {
   display: flex;
+  box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
-  gap: 5rem;
+  padding: 0px 100px;
 }
 
 h3 {
@@ -128,7 +114,7 @@ h3 {
 .fonctionaliter {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 50px;
 
 }
 
@@ -147,8 +133,4 @@ h3 {
   border-radius: 8px;
   border: none;
   font-weight: 400;
-}
-
-.logo_nav{
-    display: none;
 }
