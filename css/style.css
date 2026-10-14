@@ -10,20 +10,24 @@
 footer{
     background-color: rgba(28, 25, 23, 1);
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .container{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    gap: 9rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-left: 2rem;
+    overflow: hidden;
 }
 .navig{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1;
-    padding-left: 2rem;
+    flex-wrap: wrap;
+    padding-left: 0rem;
 }
 .nav_footer{
     display: flex;
@@ -59,32 +63,30 @@ footer h2 {
     min-width: 30%;
     display: flex;
     justify-content: flex-start;
-    gap: 2%;
+    gap:1rem;
+    flex-wrap: wrap;
 }
 .text {
-    margin-top: 2%;
-    margin-left: 3%;
-    padding-bottom: 4%;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    padding-bottom: 0rem;
 }
 
 .line {
-    margin-left: 10%;
+    margin-left: 0rem;
     display: block;
     width: 83%;
     border-bottom:2px solid rgba(87, 83, 78, 1);
 }
 
 .copy {
-    margin-left: 10%;
+    margin-left: 0rem;
     margin-top: -5px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
 }
-.contact {
-    padding-left: 2rem;
 
-}
 
 .contact a{
     text-decoration: none;
@@ -145,3 +147,6 @@ h3 {
   font-weight: 400;
 }
 
+.logo_nav{
+    display: none;
+}
