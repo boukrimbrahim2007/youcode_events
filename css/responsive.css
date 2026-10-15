@@ -101,13 +101,13 @@
         margin-left: 4rem;
     }
 
-    .articls{
+    .contain{
             grid-template-columns: 1fr 1fr  1fr;
     }
 }
 
 @media (min-width:768px) and (max-width: 1024px){
-    .articls{
+    .contain{
             grid-template-columns: 1fr 1fr  !important;
     }
     .headline{
