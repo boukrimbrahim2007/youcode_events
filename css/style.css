@@ -159,6 +159,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
    
 }
 h1 {
@@ -169,5 +170,58 @@ h1 {
 .headline p{
     margin-left: 2rem;
     padding-bottom: 1rem;
+    
 }
 
+.title {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.articls{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: calc(100% - 2rem);
+    padding-bottom: 5rem;
+}
+
+.articls-evenment{
+    margin-left: 2rem;
+    max-width: calc(100% - 2rem);
+    border-radius: 15px;
+    box-shadow: 0 2px 12px  rgb(184, 180, 180);
+    
+}
+.text-articls{
+    margin-left: 1rem;
+    padding-bottom: 1.5rem;
+    
+}
+.text-articls h3{
+    margin-bottom: 2rem;
+}
+.articls-evenment img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pointer{
+    text-decoration: none;
+    color: var(--primary-light);
+    
+}
+
+.badge{
+    background-color: var(--primary);
+    color: var(--primary-light);
+    max-width: 6rem;
+    border-radius: 14px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.even {
+    background-color: var(--secondary);
+    color: var(--primary-dark);
+}

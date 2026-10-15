@@ -72,11 +72,13 @@
     .container{
         gap: 0px;
     }
-
+    .headline p{
+        max-width: 300px;
+    }
     
 
 }
-@media (min-width:768px) {
+@media (min-width:768px)  {
     details {
     display: none;
     }
@@ -97,5 +99,21 @@
     }
     .fonctionaliter :first-child{
         margin-left: 4rem;
+    }
+
+    .articls{
+            grid-template-columns: 1fr 1fr  1fr;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+    .articls{
+            grid-template-columns: 1fr 1fr  !important;
+    }
+    .headline{
+        width: 100%;
+    }
+    .btn-header a{
+        margin-left: 0rem  !important;
     }
 }
