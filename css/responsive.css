@@ -139,7 +139,7 @@
 
     .contain,.section-1{
             display: grid;
-            grid-template-columns: 1fr 1fr  1fr;
+            grid-template-columns: 1fr 1fr  1fr;}
     .articls {
         grid-template-columns: 1fr 1fr 1fr;
     }
