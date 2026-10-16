@@ -161,86 +161,82 @@ h3 {
   font-weight: 400;
 }
 
-.logo_nav {
-  display: none;
+.logo_nav{
+    display: none;
 }
 
 /*section events*/
 .headline {
-  background-color: var(--primary);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
 }
-
 h1 {
-  margin-left: 2rem;
-  padding-bottom: 0;
-  margin-bottom: 0;
+    margin-left: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
-
-.headline p {
-  margin-left: 2rem;
-  padding-bottom: 1rem;
-
+.headline p{
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+    
 }
 
 .title {
-  margin-top: 3rem;
-  margin-left: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 
-.articls {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  max-width: calc(100% - 2rem);
-  padding-bottom: 5rem;
+.contain{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: calc(100% - 2rem);
+    padding-bottom: 5rem;
 }
 
-.articls-evenment {
-  margin-left: 2rem;
-  max-width: calc(100% - 2rem);
-  border-radius: 15px;
-  box-shadow: 0 2px 12px rgb(184, 180, 180);
-
+.card{
+    margin-left: 2rem;
+    max-width: calc(100% - 2rem);
+    border-radius: 15px;
+    box-shadow: 0 2px 12px  rgb(184, 180, 180);
+    
+}
+.info{
+    margin-left: 1rem;
+    padding-bottom: 1.5rem;
+    
+}
+.info h3{
+    margin-bottom: 2rem;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
-.text-articls {
-  margin-left: 1rem;
-  padding-bottom: 1.5rem;
-
+.pointer{
+    text-decoration: none;
+    color: var(--primary-light);
+    
 }
 
-.text-articls h3 {
-  margin-bottom: 2rem;
-}
-
-.articls-evenment img {
-  width: 100%;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.pointer {
-  text-decoration: none;
-  color: var(--primary-light);
-
-}
-
-.badge {
-  background-color: var(--primary);
-  color: var(--primary-light);
-  max-width: 6rem;
-  border-radius: 14px;
-  text-align: center;
-  padding: 5px 0px;
+.badge{
+    background-color: var(--primary);
+    color: var(--primary-light);
+    max-width: 6rem;
+    border-radius: 14px;
+    text-align: center;
+    padding: 5px 0px;
 }
 
 .even {
-  background-color: var(--secondary);
-  color: var(--primary-dark);
+    background-color: var(--secondary);
+    color: var(--primary-dark);
+    
 }
 
 .logo_nav {
@@ -295,6 +291,7 @@ h1 {
 .prochains-evenment {
   display: grid;
   grid-template-columns: 1fr 289px;
+  margin-left: 7%;
   flex-wrap: wrap;
 }
 
@@ -485,3 +482,6 @@ h1 {
 
 .partenaires {
 padding: 20px 50px;}
+.even + h3{
+    margin-bottom: 1rem;
+}
