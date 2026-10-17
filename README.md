@@ -133,4 +133,3 @@ Le serveur doit être lancé depuis la racine du dépôt, car les pages utilisen
 ---
 
 Projet réalisé dans le cadre d’une formation au développement web à YouCode.
-
