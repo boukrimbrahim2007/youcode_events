@@ -17,7 +17,6 @@ La barre de navigation affiche le logo **YouCode Events** à gauche et les liens
 - **Intervenants** — Présentation des intervenants et partenaires.
 - **S’inscrire** — Bouton d’accès à la page d’inscription.
 
-![Barre de navigation sur ordinateur](assets/screenshots/navbar-laptop.png)
 
 ### Pied de page — Footer
 
@@ -29,7 +28,6 @@ Le pied de page utilise un fond sombre et regroupe trois espaces :
 
 Une mention précise que le site est fictif et réalisé dans le cadre d’une formation.
 
-![Pied de page sur ordinateur](assets/screenshots/footer-laptop.png)
 
 ## 📱 Version mobile
 
@@ -37,7 +35,6 @@ Une mention précise que le site est fictif et réalisé dans le cadre d’une f
 
 Sur mobile, le logo reste à gauche et une icône de menu hamburger apparaît à droite. Les éléments HTML natifs `<details>` et `<summary>` permettent d’afficher les liens de navigation sans JavaScript.
 
-![Barre de navigation sur mobile](assets/screenshots/navbar-mobile.png)
 
 Les media queries CSS adaptent la navigation et la disposition des contenus aux différentes tailles d’écran, avec des règles autour de **768 px** et **1024 px**.
 
