@@ -84,7 +84,7 @@ cd youcode_events
 3. Faire un clic droit sur `index.html`.
 4. Sélectionner **Open with Live Server**.
 ## ovrire le projet 
-Ouvrir ensuite [http://localhost:8000/](http://localhost:8000/).
+Ouvrir ensuite (https://boukrimbrahim2007.github.io/youcode_events/)
 
 Aucune installation de dépendances applicatives n’est nécessaire. Une connexion Internet est utile pour charger les ressources externes référencées par les pages, notamment les polices et icônes.
 
