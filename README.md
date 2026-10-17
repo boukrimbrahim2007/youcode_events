@@ -14,12 +14,10 @@ Le travail porte sur le maquettage, l’intégration HTML et CSS, les media quer
 
 | Membre | Rôles | Contributions |
 | --- | --- | --- |
-| **ET-TAYA Younes** | Développement front-end, maquettage et documentation | Réalisation des pages `index.html` et `Intervenants.html`, navbar ordinateur et tablette, préparation des images dans `assets/`, travail sur Figma et rédaction du `README.md`. |
+| **ET-TAYA Younes** | Développement front-end, maquettage | Réalisation des pages `index.html` et `Intervenants.html`, navbar ordinateur et tablette, préparation des images dans `assets/`, travail sur Figma et rédaction du `README.md`. |
 | **BOUKRIM Brahim** | Développement front-end, responsive et présentation | Réalisation de la page `events.html`, navbar mobile, footer pour toutes les versions, travail sur `responsive.css` et préparation de la présentation du projet. |
 
 ### Travail partagé et état d’avancement
-
-Les deux membres ont participé à l’intégration de la navbar et du footer dans `details.html` et `inscrire.html`, selon leur répartition des composants. Le contenu principal de ces deux pages reste à compléter.
 
 | Page | Contenu et état |
 | --- | --- |
@@ -29,7 +27,6 @@ Les deux membres ont participé à l’intégration de la navbar et du footer da
 | `details.html` | Navbar et footer intégrés, contenu principal à compléter |
 | `inscrire.html` | Navbar et footer intégrés, contenu principal à compléter |
 
-L’inscription n’est pas encore fonctionnelle. Le projet ne comprend pas de traitement serveur des réservations.
 
 ## 🛠️ Technologies utilisées
 
@@ -70,7 +67,7 @@ youcode_events/
 └── README.md               # Documentation du projet
 ```
 
-Le dossier `assets/screenshots/` doit contenir les cinq images indiquées pour afficher les aperçus en fin de document. Les noms et extensions doivent être respectés exactement.
+Le dossier `assets/screenshots/` doit contenir cinq  images indiquées pour afficher les aperçus en fin de document. Les noms et extensions doivent être respectés exactement.
 
 ## 🚀 Installation et lancement
 
@@ -87,16 +84,8 @@ cd youcode_events
 2. Installer l’extension **Live Server**, si nécessaire.
 3. Faire un clic droit sur `index.html`.
 4. Sélectionner **Open with Live Server**.
-
-### Alternative avec Python
-
-Si Python est installé, lancer cette commande depuis la racine du projet :
-
-```bash
-python -m http.server 8000
-```
-
-Ouvrir ensuite [http://localhost:8000/](http://localhost:8000/).
+## ovrire le projet 
+Ouvrir ensuite (https://boukrimbrahim2007.github.io/youcode_events/).
 
 Aucune installation de dépendances applicatives n’est nécessaire. Une connexion Internet est utile pour charger les ressources externes référencées par les pages, notamment les polices et icônes.
 
@@ -112,7 +101,6 @@ Chaque membre travaille dans ses branches. Les modifications sont regroupées da
 | **BOUKRIM Brahim** | `revert-5-evenement`, `fix/polishing_page1and2` |
 | **Intégration commune** | `developement` |
 
-Les noms ci-dessus conservent l’orthographe des branches utilisées dans le projet.
 
 ### Étapes et règles de Pull Request
 
@@ -128,7 +116,7 @@ La relecture croisée permet à chaque membre de vérifier et de comprendre les 
 
 ### Format des messages de commit
 
-Pendant le projet, l’équipe a utilisé des messages descriptifs au **format libre**, en français ou en anglais.
+Pendant le projet, l’équipe a utilisé des messages descriptifs au **format libre**, en français par **ET-TAYA Younes** ou en anglais **BOUKRIM Brahim**.
 
 Exemples communiqués par les membres :
 
@@ -138,15 +126,6 @@ Exemples communiqués par les membres :
 | **Brahim** | `finished page evenement`, `a small fix in nav`, `a new html file` |
 
 Le brief demande la convention `type: description`. Elle n’a pas été appliquée systématiquement aux messages ci-dessus et constitue un point d’amélioration pour les prochains commits.
-
-Exemples conformes au format demandé :
-
-```text
-feat: ajouter la page événements
-fix: corriger la navigation
-style: adapter le footer au mobile
-docs: ajouter les captures au README
-```
 
 ## 📱 Responsive et points de rupture
 
